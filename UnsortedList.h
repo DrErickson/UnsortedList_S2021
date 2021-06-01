@@ -38,7 +38,7 @@ public:
 
   void DeleteItem(int item);
   // Function: Deletes the first element whose key matches item's key.
-  // Pre:  ???
+  // Pre:  List has been initialized
   // Post: ???    
 
   void ResetIterator();
