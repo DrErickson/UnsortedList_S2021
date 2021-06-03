@@ -1,7 +1,7 @@
 #ifndef UNSORTEDLIST_H
 #define UNSORTEDLIST_H
 
-const int MAX_ITEMS = 5;
+const int MAX_ITEMS = 10;
 
 class UnsortedList
 {
@@ -58,7 +58,7 @@ public:
 private:
   int length;
   int info[MAX_ITEMS];
-  int currentPos;
+  int currentPos;   // Used by ResetIterator and GetNextItem
 };
 
 #endif

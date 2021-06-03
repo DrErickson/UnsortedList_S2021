@@ -79,7 +79,7 @@ int main()
 			}
 		}
 		else if (command == "GetLength") {
-                        cout << "Length is " << list.GetLength() << endl;
+            cout << "Length is " << list.GetLength() << endl;
 			outFile << "Length is " << list.GetLength() << endl;
 		}
 		else if (command == "IsFull") {
